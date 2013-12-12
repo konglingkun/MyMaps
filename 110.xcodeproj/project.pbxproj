@@ -18,6 +18,7 @@
 		1868A0F21859B84B00EAC9BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1868A0F11859B84B00EAC9BC /* Default-568h@2x.png */; };
 		1868A0F51859B84B00EAC9BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868A0F41859B84B00EAC9BC /* ViewController.m */; };
 		1868A0F81859B84B00EAC9BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1868A0F61859B84B00EAC9BC /* ViewController.xib */; };
+		7893BF541859BA0A0080375F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7893BF531859BA0A0080375F /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		1868A0F31859B84B00EAC9BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1868A0F41859B84B00EAC9BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1868A0F71859B84B00EAC9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7893BF521859BA0A0080375F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7893BF531859BA0A0080375F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				1868A0F31859B84B00EAC9BC /* ViewController.h */,
 				1868A0F41859B84B00EAC9BC /* ViewController.m */,
 				1868A0F61859B84B00EAC9BC /* ViewController.xib */,
+				7893BF521859BA0A0080375F /* HomeViewController.h */,
+				7893BF531859BA0A0080375F /* HomeViewController.m */,
 				1868A0E21859B84B00EAC9BC /* Supporting Files */,
 			);
 			path = 110;
@@ -176,6 +181,7 @@
 				1868A0E81859B84B00EAC9BC /* main.m in Sources */,
 				1868A0EC1859B84B00EAC9BC /* AppDelegate.m in Sources */,
 				1868A0F51859B84B00EAC9BC /* ViewController.m in Sources */,
+				7893BF541859BA0A0080375F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +296,7 @@
 				1868A0FD1859B84B00EAC9BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
